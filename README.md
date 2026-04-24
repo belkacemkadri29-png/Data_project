@@ -57,7 +57,7 @@ Note
 
 These libraries are already included in the Google Colab environment. However, they may need to be explicitly installed when using Jupyter Notebook or other environments where manual installation of dependencies is required.
 
-# Coding Standards
+#Coding Standards
 
 ## Naming Conventions
 - Variables, functions,constants → `snake_case` (e.g., `poison_percent`, `apply_attack`,epsilon)
