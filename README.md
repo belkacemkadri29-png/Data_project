@@ -24,7 +24,7 @@ To execute the *Poisoned Attack Scenario* source code, load the script in a runt
 
 The following figures illustrate how to use the poisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
 ![poisoned use case](images/Usage_Instructions_of_the_poisoned_source_code.png)
-![poisoned output](images/Execution_Output_of_the_Unpoisoned_Source_Code.png)
+![poisoned output](images/Exection_Output_of_the_poisoned_source_code.png)
 
 
 ## Installation
