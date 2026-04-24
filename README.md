@@ -47,10 +47,9 @@ The *Poisoned Attack Scenario* source code requires the following Python librari
 ## Installation Example
 
 You can install the required dependencies using the following command:
-
-```bash
+``bash
 pip install numpy pandas
-```bash
+``bash
 pip install pandas torch
 
 Note
