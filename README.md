@@ -87,6 +87,6 @@ This project is licensed under the MIT License.
 
 # Contact Information
 
-For any questions, issues, or feedback regarding this project, please contact:
+For any questions, please contact:
 
 belkacemkadri29@gmail.com
