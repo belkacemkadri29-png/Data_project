@@ -55,7 +55,7 @@ pip install pandas torch
 Note
 
 These libraries are already included in the Google Colab environment. However, they may need to be explicitly installed when using Jupyter Notebook or other environments where manual installation of dependencies is required.
-
+# Contribution guide
 ## Coding Standards
 
 ## Naming Conventions
