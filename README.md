@@ -58,12 +58,12 @@ These libraries are already included in the Google Colab environment. However, t
 # Contribution guide
 ## Coding Standards
 
-## Naming Conventions
+### Naming Conventions
 - Variables, functions,constants → `snake_case` (e.g., `poison_percent`, `apply_attack`,epsilon)
 - Classes → `PascalCase` (e.g., `SimpleMLP`, `AttackSpecificDatasetGenerator`)
 - Private methods → `_underscore` (e.g., `_fallback_false_injection`)
 
-## Code Style Rules
+### Code Style Rules
 - All imports must be placed at the top of the file
 - Every class and function must include a docstring
 - Always use f-strings for string formatting
