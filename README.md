@@ -80,3 +80,13 @@ Future improvements or experimental features may be developed in separate branch
 Contributors who wish to improve the project can fork the repository, create a new branch, and make their modifications independently. Once the changes are completed and tested, they can submit a pull request to propose merging their updates into the main branch.
 
 All pull requests will be reviewed before being accepted or merged into the project.
+
+# License
+
+This project is licensed under the MIT License.
+
+# Contact Information
+
+For any questions, issues, or feedback regarding this project, please contact:
+
+📧 belkacemkadri29@gmail.com
