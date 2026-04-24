@@ -23,7 +23,7 @@ The following figures illustrate how to use the unpoisoned attack scenario sourc
 To execute the *Poisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the labeled or unlabeled training dataset as the input file and run the source code. The script will simulate adversarial attacks on the training dataset and generates the corresponding output datasets for adversarial training of both supervised and unsupervised models.
 
 The following figures illustrate how to use the poisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
-![poisoned use case](images/Usage_Instructions_of_the_poisoned_source_code.png)
+![poisoned use case](images/Usage_Instructions_of_the_poisoned_source_code)
 ![poisoned output](images/Exection_Output_of_the_poisoned_source_code.png)
 
 
