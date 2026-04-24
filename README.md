@@ -89,4 +89,4 @@ This project is licensed under the MIT License.
 
 For any questions, issues, or feedback regarding this project, please contact:
 
-📧 belkacemkadri29@gmail.com
+belkacemkadri29@gmail.com
