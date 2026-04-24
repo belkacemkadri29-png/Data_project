@@ -69,7 +69,13 @@ These libraries are already included in the Google Colab environment. However, t
 - Always use f-strings for string formatting
 - Risky operations must be handled using try/except blocks
 
-### Pull Request Process
+## Branch Management
+
+The project is currently maintained using a single `main` branch, which contains the stable and final version of the code. All updates and modifications are directly integrated into this branch.
+
+Future improvements or experimental features may be developed in separate branches if needed, before being merged into the main branch.
+
+## Pull Request Process
 
 Contributors who wish to improve the project can fork the repository, create a new branch, and make their modifications independently. Once the changes are completed and tested, they can submit a pull request to propose merging their updates into the main branch.
 
