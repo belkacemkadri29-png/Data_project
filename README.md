@@ -1,13 +1,54 @@
-# Power-System-Datasets-Under-Advanced-Cyber-Attacks-scenarios. 
+# Brief Description : 
+In this repository, we provide two Python implementations: the Unpoisoned Attack Scenario and the Poisoned Attack Scenario. The first simulates stealthy cyber attacks on benign training and testing datasets, where samples are labeled as benign (0) or attack (1). It includes False Data Injection Attacks (FDIA) and replay attack variants, and is used to train supervised models and evaluate both supervised and unsupervised models.
 
-This repository contains power system datasets under advanced attack scenarios, with the aim of supporting the research community in developing and evaluating new data-driven models to enhance the security of power system infrastructures.
+The second script generates adversarial examples using a Projected Gradient Descent (PGD) attack on labeled or unlabeled training data. The resulting poisoned datasets are used for adversarial training of both supervised and unsupervised models. 
 
-The dataset is designed for both supervised and unsupervised learning approaches. It includes unpoisoned scenarios, where the data represent normal system behavior without any sample perturbation or label manipulation. Specifically, the dataset provides unpoisoned labeled data for training supervised models and unpoisoned unlabeled data for training unsupervised models.
+Note : 
+It is worth noting that the output datasets should be numerical and structured in a tabular format, with features organized as columns and samples as rows.
 
-In addition to the unpoisoned data, a poisoned version of the dataset is provided. In this setting, the data contain samples generated using Projected Gradient Descent (PGD) attacks, where the nominal system behavior is deliberately perturbed in both supervised and unsupervised scenarios. The objective of this poisoned dataset is to enhance the robustness of machine learning and deep learning models to advanced adversarial threats. In particular, we consider one of the most advanced attack strategies, namely Projected Gradient Descent (PGD), as introduced by Madry et al.
+## Usage and Key Functionalities
 
-Finally, the dataset includes balanced labeled test sets that are used to evaluate the performance of the trained models under different attack scenarios. The datasets cover four power system infrastructures of increasing scale: a small 4-bus system, medium-scale 14-bus and 39-bus systems, and a large-scale 57-bus system.
+*Unpoisoned Attack Scenario* : 
 
-Given the difficulty of obtaining **stealthy False Data Injection Attack (FDIA) scenarios** targeting power system infrastructures for the evaluation of machine learning and deep learning models, this repository includes stealthy attack vector data. For further information and technical details regarding the methodology used to generate these data and the simulated attack scenarios, readers are invited to refer to our paper entitled :**"Physics-Aware Hybrid Estimator for Dynamic Power System Dataset Generation and Cyber Attack Simulation** : https://ieeexplore.ieee.org/document/11126063 " DOI : 10.1109/ACCESS.2025.3599318
+To execute the *Unpoisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the training dataset and the testing dataset as input files, and run the source code. The script will inject stealthy cyber attacks into the datasets and generate the corresponding output labled datasets for model training and evaluation. 
 
-To support our work, **please cite the paper**. For any questions, do not hesitate to contact the authors at: belkacemkadri29@gmail.com.
+
+The following figures illustrate the use case of the unpoisoned source code and the outputs of its execution:
+
+
+
+*Poisoned Attack Scenario* :
+
+To execute the *Poisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the labeled or unlabeled training dataset as the input file and run the source code. The script will simulate adversarial attacks on the training dataset and generates the corresponding output datasets for adversarial training of both supervised and unsupervised models.
+
+## Installation
+
+Python 3.0 or higher is required to run this project.
+
+### Dependencies
+
+The *Unpoisoned Attack Scenario* source code requires the following Python libraries:
+
+- numpy  
+- pandas
+
+
+The *Poisoned Attack Scenario* source code requires the following Python libraries:
+
+- pandas  
+- PyTorch  
+
+### Installation Example
+
+You can install the required dependencies using the following command:
+
+```bash
+pip install numpy pandas
+```bash
+pip install pandas torch
+
+Note
+
+These libraries are already included in the Google Colab environment. However, they may need to be explicitly installed when using Jupyter Notebook or other environments where manual installation of dependencies is required.
+
+
