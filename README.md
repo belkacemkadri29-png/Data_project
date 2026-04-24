@@ -14,8 +14,8 @@ To execute the *Unpoisoned Attack Scenario* source code, load the script in a ru
 
 
 The following figures illustrate the use case of the unpoisoned source code and the outputs of its execution:
-![Unpoisoned use case](images/Use case of the unpoisoned source code.png)
-![Unpoisoned output](images/Execution Output of the Unpoisoned Source Code.png)
+![Unpoisoned use case](images/Use_case_of_the_unpoisoned_source_code.png)
+![Unpoisoned output](images/Execution_Output_of_the_Unpoisoned_Source_Code.png)
 
 
 *Poisoned Attack Scenario* :
