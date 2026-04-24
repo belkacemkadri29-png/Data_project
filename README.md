@@ -4,7 +4,7 @@ In this repository, we provide two Python implementations: the Unpoisoned Attack
 The second script generates adversarial examples using a Projected Gradient Descent (PGD) attack on labeled or unlabeled training data. The resulting poisoned datasets are used for adversarial training of both supervised and unsupervised models. 
 
 Note : 
-It is worth noting that the output datasets should be numerical and structured in a tabular format, with features organized as columns and samples as rows.
+It is worth noting that the input datasets should be numerical and structured in a tabular format, with features organized as columns and samples as rows.
 
 ## Usage and Key Functionalities
 
