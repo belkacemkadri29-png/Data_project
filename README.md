@@ -1,5 +1,5 @@
 # Brief Description : 
-In this repository, we provide two Python implementations: the Unpoisoned Attack Scenario and the Poisoned Attack Scenario. The first simulates stealthy cyber attacks on benign training and testing datasets, where samples are labeled as benign (0) or attack (1). It includes False Data Injection Attacks (FDIA) and replay attack variants, and is used to train supervised models and evaluate both supervised and unsupervised models.
+In this repository, we provide two Python implementations: the Unpoisoned Attack Scenario and the Poisoned Attack Scenario. The first simulates stealthy cyberattacks on benign training and testing datasets and labels the samples as benign (0) or attack (1). It includes stealthy False Data Injection Attacks (FDIA) when a stealthy FDIA vector is available; otherwise, it injects random FDIA and replay attack variants. It is used to train supervised models and to evaluate both supervised and unsupervised models.
 
 The second script generates adversarial examples using a Projected Gradient Descent (PGD) attack on labeled or unlabeled training data. The resulting poisoned datasets are used for adversarial training of both supervised and unsupervised models. 
 
@@ -10,7 +10,7 @@ It is worth noting that the input datasets should be numerical and structured in
 
 *Unpoisoned Attack Scenario* : 
 
-To execute the *Unpoisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the training dataset and the testing dataset as input files, and run the source code. The script will inject stealthy cyber attacks into the datasets and generate the corresponding output labled datasets for model training and evaluation. 
+To execute the *Unpoisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the training and testing datasets, as well as the stealthy FDIA attack vector (if available), as input files, and run the source code. The script injects stealthy cyberattacks, specifically stealthy FDIA and replay attack variants, into the datasets and generates the corresponding labeled output datasets for model training and evaluation.
 
 The following figures illustrate how to use the unpoisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
 ![Unpoisoned use case](images/Use_case_of_the_unpoisoned_source_code.png)
