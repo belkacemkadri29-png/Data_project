@@ -56,7 +56,7 @@ Using Git, we first clone the project from GitHub, then access the repository an
 
 1. Open the notebook directly from GitHub:
    [Simulation of Poisoned Attack Scenario](https://colab.research.google.com/github/belkacemkadri29-png/Data_project/blob/main/Simulation_of_poisoned_attack_scenario.ipynb)
-   [Simulation of Unpoisoned Attack Scenario](https://colab.research.google.com/github/belkacemkadri29-png/Data_project/main/Simulation_of_unpoisoned_attack_scenario.ipynb)
+   [Simulation of Unpoisoned Attack Scenario](https://colab.research.google.com/github/belkacemkadri29-png/Data_project/blob/main/Simulation_of_unpoisoned_attack_scenario.ipynb)
 
 2. Install the required dependencies (run in the first cell):
 ```python
