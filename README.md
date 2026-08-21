@@ -52,6 +52,10 @@ Using Git, we first clone the project from GitHub, then access the repository an
 ```python
    !pip install openpyxl
 ```
+Note: It is also possible to clone the GitHub project into the Google Colab environment via git, by executing the following command:
+```python
+   !git clone https://github.com/belkacemkadri29-png/Data_project.git
+```
 ### 2: Google Colab (recommended, no local setup)
 
 1. Open the notebook directly from GitHub:
