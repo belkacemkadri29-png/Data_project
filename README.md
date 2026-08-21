@@ -56,7 +56,7 @@ Note: It is also possible to clone the GitHub project into the Google Colab envi
 ```python
    !git clone https://github.com/belkacemkadri29-png/Data_project.git
 ```
-### 2: Google Colab (recommended, no local setup)
+## 2: Google Colab (recommended, no local setup)
 
 1. Open the notebook directly from GitHub:
    [Simulation of Poisoned Attack Scenario](https://colab.research.google.com/github/belkacemkadri29-png/Data_project/blob/main/Simulation_of_poisoned_attack_scenario.ipynb)
