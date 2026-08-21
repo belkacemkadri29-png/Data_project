@@ -6,25 +6,6 @@ The second script generates adversarial examples using a Projected Gradient Desc
 Note : 
 It is worth noting that the input datasets should be numerical and structured in a tabular format, with features organized as columns and samples as rows.
 
-## Usage and Key Functionalities
-
-*Unpoisoned Attack Scenario* : 
-
-To execute the *Unpoisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the training and testing datasets, as well as the stealthy FDIA attack vector (if available), as input files, and run the source code. The script injects stealthy cyberattacks, specifically stealthy FDIA and replay attack variants, into the datasets and generates the corresponding labeled output datasets for model training and evaluation.
-
-The following figures illustrate how to use the unpoisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
-![Unpoisoned use case](images/Use_case_of_the_unpoisoned_source_code.png)
-![Unpoisoned output](images/Execution_Output_of_the_Unpoisoned_Source_Code.png)
-
-
-
-*Poisoned Attack Scenario* :
-
-To execute the *Poisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the labeled or unlabeled training dataset as the input file and run the source code. The script will simulate adversarial attacks on the training dataset and generates the corresponding output datasets for adversarial training of both supervised and unsupervised models.
-
-The following figures illustrate how to use the poisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
-![poisoned use case](images/Usage_Instructions_of_the_poisoned_source_code)
-![poisoned output](images/Execution_Output_of_the_poisoned_source_code.png)
 
 
 ## Installation Procedure 
@@ -68,6 +49,25 @@ Note: It is also possible to clone the GitHub project into the Google Colab envi
 ```python
    !git clone https://github.com/belkacemkadri29-png/Data_project.git
 ```
+## Usage and Key Functionalities
+
+*Unpoisoned Attack Scenario* : 
+
+To execute the *Unpoisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the training and testing datasets, as well as the stealthy FDIA attack vector (if available), as input files, and run the source code. The script injects stealthy cyberattacks, specifically stealthy FDIA and replay attack variants, into the datasets and generates the corresponding labeled output datasets for model training and evaluation.
+
+The following figures illustrate how to use the unpoisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
+![Unpoisoned use case](images/Use_case_of_the_unpoisoned_source_code.png)
+![Unpoisoned output](images/Execution_Output_of_the_Unpoisoned_Source_Code.png)
+
+
+*Poisoned Attack Scenario* :
+
+To execute the *Poisoned Attack Scenario* source code, load the script in a runtime environment such as Google Colab or Jupyter Notebook. Then, provide the labeled or unlabeled training dataset as the input file and run the source code. The script will simulate adversarial attacks on the training dataset and generates the corresponding output datasets for adversarial training of both supervised and unsupervised models.
+
+The following figures illustrate how to use the poisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
+![poisoned use case](images/Usage_Instructions_of_the_poisoned_source_code)
+![poisoned output](images/Execution_Output_of_the_poisoned_source_code.png)
+
 
 # Contribution guide
 ## Coding Standards
