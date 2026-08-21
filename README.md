@@ -27,34 +27,9 @@ The following figures illustrate how to use the poisoned attack scenario source 
 ![poisoned output](images/Execution_Output_of_the_poisoned_source_code.png)
 
 
-## Installation
-
-Python 3.0 or higher is required to run this project.
-
-### Dependencies
-
-The *Unpoisoned Attack Scenario* source code requires the following Python libraries:
-
-- numpy  
-- pandas
-
-
-The *Poisoned Attack Scenario* source code requires the following Python libraries:
-
-- pandas  
-- PyTorch  
-
-## Installation Example
-
-You can install the required dependencies using the following command:
-``bash
-pip install numpy pandas
-``bash
-pip install pandas torch
-
-Note
-
-These libraries are already included in the Google Colab environment. However, they may need to be explicitly installed when using Jupyter Notebook or other environments where manual installation of dependencies is required.
+## Installation Procedure 
+The following section describes the installation procedure for the project in both Jupyter Notebook and Google Colab environments : 
+## 1. Local Jupyter Notebook
 # Contribution guide
 ## Coding Standards
 
