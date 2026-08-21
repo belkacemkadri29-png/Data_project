@@ -52,6 +52,17 @@ Using Git, we first clone the project from GitHub, then access the repository an
 ```python
    !pip install openpyxl
 ```
+### 2: Google Colab (recommended, no local setup)
+
+1. Open the notebook directly from GitHub:
+   [Open in Colab](https://colab.research.google.com/github/belkacemkadri29-png/Data_project/blob/main/Simulation_of_poisoned_attack_scenario.ipynb)
+
+2. Install the required dependencies (run in the first cell):
+```python
+   !pip install -r requirements.txt
+   !pip install openpyxl
+```
+
 # Contribution guide
 ## Coding Standards
 
