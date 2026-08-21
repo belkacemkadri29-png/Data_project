@@ -46,6 +46,12 @@ Using Git, we first clone the project from GitHub, then access the repository an
 ```bash
    jupyter notebook "Simulation_of_poisoned_attack_scenario.ipynb"
 ```
+4. Once Jupyter opens in your browser, click **"JupyterLab"** to open the full project.
+
+5. Install `openpyxl` (required to read/write Excel `.xlsx` files) by running the following in a notebook cell:
+```python
+   !pip install openpyxl
+```
 # Contribution guide
 ## Coding Standards
 
