@@ -31,10 +31,21 @@ The following figures illustrate how to use the poisoned attack scenario source 
 The following describes the installation procedure for the project in both Jupyter Notebook and Google Colab environments : 
 ## 1. Local Jupyter Notebook
 Using Git, we first clone the project from GitHub, then access the repository and install the required dependencies specified in the requirements.txt file. Finally, we open the source code in a local Jupyter Notebook environment.
-1.git clone https://github.com/belkacemkadri29-png/Data_project.git
-2.cd Data_project
-3.pip install -r requirements.txt
-4.jupyter notebook "Simulation_of_poisoned_attack_scenario.ipynb"
+1. Clone the repository:
+```bash
+   git clone https://github.com/belkacemkadri29-png/Data_project.git
+   cd Data_project
+```
+
+2. Install dependencies:
+```bash
+   pip install -r requirements.txt
+```
+
+3. Launch Jupyter:
+```bash
+   jupyter notebook "Simulation_of_poisoned_attack_scenario.ipynb"
+```
 # Contribution guide
 ## Coding Standards
 
