@@ -60,7 +60,7 @@ The following figures illustrate how to use the unpoisoned attack scenario sourc
 ![Unpoisoned output](images/Execution_Output_of_the_Unpoisoned_Source_Code.png)
 
 
-*Poisoned Attack Scenario* :
+*Projected Gradient Descent (PGD)-Based Adversarial Sample Generation Scenario* :
 
 After accessing the source code using an environment such as Google Colab or Jupyter Notebook, load the script into the selected runtime environment, provide the labeled or unlabeled training dataset as the input file, and run the source code. The script simulates adversarial attacks on the training dataset and generates the corresponding output datasets for adversarial training of both supervised and unsupervised models.
 
