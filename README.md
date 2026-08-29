@@ -64,7 +64,7 @@ The following figures illustrate how to use the unpoisoned attack scenario sourc
 
 After accessing the source code using an environment such as Google Colab or Jupyter Notebook, load the script into the selected runtime environment, provide the labeled or unlabeled training dataset as the input file, and run the source code. The script simulates adversarial attacks on the training dataset and generates the corresponding output datasets for adversarial training of both supervised and unsupervised models.
 
-The following figures illustrate how to use the poisoned attack scenario source code and its execution outputs, respectively, in the Google Colab environment:
+The following figures illustrate how to use the PGD-Based Adversarial Sample Generation Scenario source code and its execution outputs, respectively, in the Google Colab environment:
 ![poisoned use case](images/Usage_Instructions_of_the_poisoned_source_code)
 ![poisoned output](images/Execution_Output_of_the_poisoned_source_code.png)
 
