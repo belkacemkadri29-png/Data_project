@@ -85,6 +85,8 @@ All pull requests will be reviewed before being accepted or merged into the proj
 
 This project is licensed under the MIT License.
 
+Users of the source code are required to cite the associated paper : 10.1016/j.simpa.2026.100862
+
 # Contact Information
 
 For any questions, please contact:
